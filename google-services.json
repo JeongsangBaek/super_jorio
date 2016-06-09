@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "635403001798",
+    "firebase_url": "https://super-jorio.firebaseio.com",
+    "project_id": "super-jorio",
+    "storage_bucket": "super-jorio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635403001798:android:fa2f5344fd8ece88",
+        "android_client_info": {
+          "package_name": "com.boontaran.games.supermario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635403001798-p6898d5gcl5d4ka28bun9rfd4c9lfmqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5ZHOYXAvdjhAT7DUIml29Egro5dMHsFA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

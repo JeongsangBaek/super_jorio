@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="150" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiled1" tilewidth="64" tileheight="64">
+  <image source="tiled1.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 2" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKwCAMBVCvVNx6/4OVbkWkXUwM5b1JBOGThNgaAAAArHHuDgAF9Mf52JaCmYr9uDP1yd3XG3KpOdHe/o5xR2Qz//XpEatEz1LEPjP/udQb+IsL2YQDhg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztmEEOAiEMRbmOulJXaub+1xISJ8FaWlooMKYv+TsTyvxPKYbgWHGNus8uwvk7PFeOBZ6r8WyIVgWrtUaPqNeEeh3HoTlFnQld5pX2BVbnKrU5v6RZ4vZRmimeQJL7AN6JKQvQe+0dmteZ15uv5VkbS37W4XeHueqJdv7F8ojlCvYviz04ZUrZ2fNmlSvp/MvdyTBXmPI9rP6uOCLQI+y7wx6gyRX0rcVHrCdJ5f2Khju7HCWPqB5ArVeaXVpzVcr/irmS7K3mtzN6KXd2MXp7VOMZlqst0DOdZJ+aGnv7xZ3xVtWcV47aHHPfu2UG0UryPwT1HrDMv0W/6p19rmbrHFvuxdpHKleWPvXwqOYtalmz9XpH0Oq50qw12ueVcvUGfm6ERw==
+  </data>
+ </layer>
+ <objectgroup name="fixed">
+  <object x="0" y="768" width="320" height="192"/>
+  <object x="320" y="704" width="192" height="256"/>
+  <object x="512" y="576" width="192" height="384"/>
+  <object x="704" y="448" width="256" height="512"/>
+  <object x="960" y="640" width="128" height="320"/>
+  <object x="1088" y="512" width="192" height="384"/>
+  <object x="1152" y="320" width="576" height="128"/>
+  <object x="1152" y="448" width="256" height="512"/>
+  <object x="1408" y="640" width="512" height="320"/>
+  <object x="1920" y="768" width="320" height="192"/>
+  <object x="2176" y="576" width="64" height="192"/>
+  <object x="1920" y="192" width="320" height="64"/>
+  <object x="2368" y="384" width="64" height="64"/>
+  <object x="2432" y="576" width="64" height="192"/>
+  <object x="2560" y="704" width="256" height="256"/>
+  <object x="2496" y="704" width="64" height="64"/>
+  <object x="2624" y="384" width="128" height="192"/>
+  <object x="2944" y="384" width="256" height="64"/>
+  <object x="3008" y="768" width="192" height="192"/>
+  <object x="3200" y="640" width="192" height="256"/>
+  <object x="3392" y="512" width="512" height="320"/>
+  <object x="3520" y="448" width="128" height="64"/>
+  <object x="3840" y="320" width="384" height="384"/>
+  <object x="4224" y="448" width="128" height="384"/>
+  <object x="4352" y="384" width="192" height="576"/>
+  <object x="4544" y="704" width="64" height="64"/>
+  <object x="4672" y="512" width="128" height="64"/>
+  <object x="4736" y="832" width="896" height="128"/>
+  <object x="4672" y="192" width="1024" height="64"/>
+  <object x="5568" y="0" width="128" height="192"/>
+  <object x="5824" y="704" width="1600" height="256"/>
+  <object x="5952" y="640" width="64" height="64"/>
+  <object x="6656" y="640" width="64" height="64"/>
+  <object x="7232" y="640" width="64" height="64"/>
+  <object x="7616" y="768" width="1472" height="192"/>
+  <object x="9024" y="704" width="64" height="64"/>
+  <object x="8448" y="704" width="64" height="64"/>
+  <object x="7680" y="704" width="64" height="64"/>
+  <object x="9088" y="576" width="512" height="384"/>
+ </objectgroup>
+ <objectgroup name="entity">
+  <object name="mario" x="192" y="704" width="64" height="64"/>
+  <object name="flag" x="9152" y="192" width="64" height="384"/>
+  <object name="coin" x="3328" y="64" width="64" height="64"/>
+  <object name="coin" x="3456" y="64" width="64" height="64"/>
+  <object name="coin" x="3584" y="64" width="64" height="64"/>
+  <object name="coin" x="4992" y="576" width="64" height="64"/>
+  <object name="coin" x="5120" y="576" width="64" height="64"/>
+  <object name="coin" x="4800" y="64" width="64" height="64"/>
+  <object name="coin" x="5056" y="64" width="64" height="64"/>
+  <object name="coin" x="5312" y="64" width="64" height="64"/>
+  <object name="coin" x="4544" y="640" width="64" height="64"/>
+  <object name="coin" x="6400" y="384" width="64" height="64"/>
+  <object name="coin" x="5952" y="192" width="64" height="64"/>
+  <object name="coin" x="6016" y="192" width="64" height="64"/>
+  <object name="coin" x="6080" y="192" width="64" height="64"/>
+  <object name="coin" x="6144" y="192" width="64" height="64"/>
+  <object name="coin" x="6144" y="128" width="64" height="64"/>
+  <object name="coin" x="6080" y="128" width="64" height="64"/>
+  <object name="coin" x="6016" y="128" width="64" height="64"/>
+  <object name="coin" x="5952" y="128" width="64" height="64"/>
+  <object name="coin" x="7680" y="512" width="64" height="64"/>
+  <object name="coin" x="7232" y="448" width="64" height="64"/>
+  <object name="coin" x="8448" y="512" width="64" height="64"/>
+  <object name="mystery" x="960" y="448" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object name="mystery" x="2176" y="320" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object name="mystery" x="5056" y="448" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object name="bullet_stock" x="5952" y="320" width="64" height="64">
+   <properties>
+    <property name="amount" value="10"/>
+   </properties>
+  </object>
+  <object name="enemy1" x="576" y="512" width="64" height="64"/>
+  <object name="enemy1" x="832" y="384" width="64" height="64"/>
+  <object name="enemy1" x="2176" y="128" width="64" height="64"/>
+  <object name="enemy2" x="1664" y="576" width="64" height="64"/>
+  <object name="enemy1" x="1856" y="576" width="64" height="64"/>
+  <object name="enemy1" x="3136" y="320" width="64" height="64"/>
+  <object name="enemy1" x="3584" y="384" width="64" height="64"/>
+  <object name="enemy2" x="3520" y="128" width="64" height="64"/>
+  <object name="enemy1" x="5440" y="128" width="64" height="64"/>
+  <object name="enemy1" x="5184" y="576" width="64" height="64"/>
+  <object name="enemy2" x="6144" y="320" width="64" height="64"/>
+  <object name="enemy1" x="6080" y="640" width="64" height="64"/>
+  <object name="enemy1" x="6464" y="640" width="64" height="64"/>
+  <object name="enemy2" x="7104" y="640" width="64" height="64"/>
+  <object name="enemy1" x="6848" y="640" width="64" height="64"/>
+  <object name="enemy1" x="7872" y="704" width="64" height="64"/>
+  <object name="enemy1" x="8768" y="704" width="64" height="64"/>
+  <object name="enemy1" x="8896" y="704" width="64" height="64"/>
+  <object name="enemy1" x="8064" y="704" width="64" height="64"/>
+  <object name="enemy2" x="8320" y="704" width="64" height="64"/>
+  <object name="enemy1" x="8640" y="704" width="64" height="64"/>
+  <object name="enemy1" x="4160" y="256" width="64" height="64"/>
+  <object name="enemy1" x="4928" y="128" width="64" height="64"/>
+  <object name="enemy1" x="5376" y="768" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="brick">
+  <object x="2176" y="384" width="64" height="64"/>
+  <object x="3328" y="192" width="64" height="64"/>
+  <object x="3392" y="192" width="64" height="64"/>
+  <object x="3456" y="192" width="64" height="64"/>
+  <object x="3520" y="192" width="64" height="64"/>
+  <object x="3584" y="192" width="64" height="64"/>
+  <object x="4928" y="640" width="64" height="64"/>
+  <object x="4992" y="640" width="64" height="64"/>
+  <object x="5056" y="640" width="64" height="64"/>
+  <object x="5120" y="640" width="64" height="64"/>
+  <object x="5184" y="640" width="64" height="64"/>
+  <object x="5952" y="448" width="64" height="64"/>
+  <object x="6016" y="448" width="64" height="64"/>
+  <object x="6080" y="448" width="64" height="64"/>
+  <object x="6144" y="448" width="64" height="64"/>
+  <object x="5952" y="384" width="64" height="64"/>
+  <object x="6016" y="384" width="64" height="64"/>
+  <object x="6080" y="384" width="64" height="64"/>
+  <object x="6144" y="384" width="64" height="64"/>
+  <object x="6400" y="448" width="64" height="64"/>
+ </objectgroup>
+</map>
