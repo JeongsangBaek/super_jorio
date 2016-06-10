@@ -5,11 +5,13 @@ import android.os.Bundle;
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
 import com.boontaran.games.supermario.SuperMario;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.igaworks.IgawCommon;
 import com.igaworks.liveops.IgawLiveOps;
 import com.igaworks.liveops.net.AdbrixRequestManager;
 
 public class AndroidLauncher extends AndroidApplication {
+	FirebaseAnalytics mFirebaseAnalytics;
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -24,7 +26,20 @@ public class AndroidLauncher extends AndroidApplication {
 		IgawLiveOps.initialize(AndroidLauncher.this);
 
 		initialize(new SuperMario(),cfg);
+		mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+		String id = "hackest";
+		String name = "Jeongsang Baek";
+
+
+		Bundle bundle = new Bundle();
+		bundle.putString(FirebaseAnalytics.Param.ITEM_ID, id);
+		bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, name);
+		bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
+		mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
+		mFirebaseAnalytics.setUserProperty("player_name", name);
 	}
+
 	@Override
 	protected void onResume() {
 		super.onResume();

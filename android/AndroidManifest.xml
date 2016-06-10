@@ -38,7 +38,7 @@
             android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <category android:name="MY_PACKAGE_NAME" />
+                <category android:name="com.boontaran.games.supermario" />
             </intent-filter>
         </receiver>
 
@@ -47,11 +47,23 @@
 
         <!-- Client Push App Receiver -->
         <receiver android:name="com.igaworks.liveops.pushservice.LiveOpsReceiver"
-            android:permission="MY_PACKAGE_NAME.permission.C2D_MESSAGE">
+            android:permission="com.boontaran.games.supermario.permission.C2D_MESSAGE">
             <intent-filter>
                 <action android:name="com.igaworks.liveops.pushservice.CLIENT_PUSH_RECEIVE"/>
             </intent-filter>
         </receiver>
+
+        <!-- firebase message service -->
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>

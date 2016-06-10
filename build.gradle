@@ -5,6 +5,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.google.gms:google-services:3.0.0'
     }
 }
 
@@ -66,6 +67,20 @@ project(":android") {
         compile fileTree(dir: '../core/libs', include: 'game_lib.jar')
         compile fileTree(dir: '../core/libs', include: '*.jar')
         compile 'com.google.android.gms:play-services:9.0.2'
+
+        //google firebase
+        compile 'com.google.firebase:firebase-core:9.0.2'
+        compile 'com.google.firebase:firebase-database:9.0.2'
+        compile 'com.google.firebase:firebase-storage:9.0.2'
+        compile 'com.google.firebase:firebase-crash:9.0.2'
+        compile 'com.google.firebase:firebase-auth:9.0.2'
+        compile 'com.google.firebase:firebase-messaging:9.0.2'
+        compile 'com.google.firebase:firebase-config:9.0.2'
+        compile 'com.google.firebase:firebase-invites:9.0.2'
+        compile 'com.google.firebase:firebase-ads:9.0.2'
+        compile 'com.google.android.gms:play-services-appindexing:9.0.2'
+
+        apply plugin:  'com.google.gms.google-services'
     }
 }
 
