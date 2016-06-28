@@ -45,9 +45,7 @@ public class SuperMario extends GdxGame {
 	public static final int LEVEL_COMPLETED = 102;
 	public static final int LEVEL_PAUSED = 103;
 	public static final int LEVEL_RESUMED = 104;
-	
-	
-	
+
 	private FPSLogger fpsLogger;
 	
 	public SuperMario() {
@@ -58,8 +56,6 @@ public class SuperMario extends GdxGame {
 	public void create() {
 		super.create();
 
-		
-		
 		Gdx.input.setCatchBackKey(true);
 		data = new Data();
 		
@@ -184,6 +180,7 @@ public class SuperMario extends GdxGame {
 		SuperMario.media.stopMusic("level");
 		SuperMario.media.playMusic("intro");
 
+		//send initial login
 	}
 	
 	
@@ -222,8 +219,7 @@ public class SuperMario extends GdxGame {
 		
 		SuperMario.media.stopMusic("intro");
 		SuperMario.media.playMusic("level");
-		
-	
+
 	}
 	
 	
